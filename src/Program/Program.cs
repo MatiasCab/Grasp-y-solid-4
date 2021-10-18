@@ -21,6 +21,7 @@ namespace Full_GRASP_And_SOLID
             recipe.AddStep(ProductManager.GetProduct("Café"), 100, EquipmentManager.GetEquipment("Cafetera"), 120);
             recipe.AddStep(ProductManager.GetProduct("Leche"), 200, EquipmentManager.GetEquipment("Hervidor"), 60);
 
+
             IPrinter printer;
             printer = new ConsolePrinter();
             printer.PrintRecipe(recipe);
